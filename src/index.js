@@ -1,11 +1,23 @@
 import './style.css'
-import navbar from "./components/navbar/navbar";
-import main from "./components/main/main";
+import navbar from "./components/navbar/navbar.js";
+import main from "./components/main/main.js";
+import home from './components/home/home.js';
+import menu from './components/menu/menu.js';
+import contact from './components/contact/contact.js'
+import changePage from './utils/changePage';
 
 (function setPage() {
     const content = document.querySelector('#content');
     content.appendChild(navbar());
-    const mainContent = main();
+    content.appendChild(main());
 
-    content.appendChild(mainContent);
+    let pages = {home, menu, contact};
+
+    let buttons = document.querySelectorAll('#links li');
+    buttons.forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+            changePage(pages[btn.id]());
+        })
+    })
+    changePage(pages['home']());
 }())

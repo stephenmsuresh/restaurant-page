@@ -14,10 +14,9 @@ export default function navbar() {
         btn.innerText = page;
         btn.setAttribute('class', 'navlink');
         btn.setAttribute('id', page);
-        btn.addEventListener('click', changePage);
         links.appendChild(btn);
     });
-
+    
     navbar.appendChild(links);
 
     return navbar;
