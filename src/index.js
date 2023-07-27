@@ -1,3 +1,4 @@
+import './style.css'
 import navbar from "./components/navbar/navbar";
 import main from "./components/main/main";
 

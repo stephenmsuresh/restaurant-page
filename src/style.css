@@ -23,4 +23,6 @@ html {
     height: auto;
   }
 
-  
+  body{
+    background-color: gray;
+  }
