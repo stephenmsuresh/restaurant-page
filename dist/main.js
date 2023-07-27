@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/components/main/main.js":
+/*!*************************************!*\
+  !*** ./src/components/main/main.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ main)\n/* harmony export */ });\nfunction main() {\r\n    const mainDiv = document.createElement('div');\r\n    mainDiv.setAttribute('id', 'main');\r\n    return mainDiv;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/components/main/main.js?");
+
+/***/ }),
+
 /***/ "./src/components/navbar/navbar.js":
 /*!*****************************************!*\
   !*** ./src/components/navbar/navbar.js ***!
@@ -26,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_navbar_navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/navbar/navbar */ \"./src/components/navbar/navbar.js\");\n\r\n\r\nfunction setPage() {\r\n    const content = document.querySelector('#content');\r\n    content.appendChild((0,_components_navbar_navbar__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n}\r\n\r\nsetPage();\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_navbar_navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/navbar/navbar */ \"./src/components/navbar/navbar.js\");\n/* harmony import */ var _components_main_main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/main/main */ \"./src/components/main/main.js\");\n\r\n\r\n\r\n(function setPage() {\r\n    const content = document.querySelector('#content');\r\n    content.appendChild((0,_components_navbar_navbar__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n    const mainContent = (0,_components_main_main__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n\r\n    content.appendChild(mainContent);\r\n}())\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
