@@ -10,6 +10,26 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/components/contact/contact.js":
+/*!*******************************************!*\
+  !*** ./src/components/contact/contact.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contact)\n/* harmony export */ });\nfunction contact(){\r\n    console.log(\"in contact\");\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/components/contact/contact.js?");
+
+/***/ }),
+
+/***/ "./src/components/home/home.js":
+/*!*************************************!*\
+  !*** ./src/components/home/home.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ home)\n/* harmony export */ });\nfunction home(){\r\n    console.log(\"in home\");\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/components/home/home.js?");
+
+/***/ }),
+
 /***/ "./src/components/main/main.js":
 /*!*************************************!*\
   !*** ./src/components/main/main.js ***!
@@ -17,6 +37,16 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ main)\n/* harmony export */ });\nfunction main() {\r\n    const mainDiv = document.createElement('div');\r\n    mainDiv.setAttribute('id', 'main');\r\n    return mainDiv;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/components/main/main.js?");
+
+/***/ }),
+
+/***/ "./src/components/menu/menu.js":
+/*!*************************************!*\
+  !*** ./src/components/menu/menu.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\nfunction menu(){\r\n    console.log('in menu');\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/components/menu/menu.js?");
 
 /***/ }),
 
@@ -46,7 +76,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ changePage)\n/* harmony export */ });\n\r\nfunction changePage(evt) {\r\n    const page = evt.target.id;\r\n    console.log(page);\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/utils/changePage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ changePage)\n/* harmony export */ });\n/* harmony import */ var _components_menu_menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/menu/menu */ \"./src/components/menu/menu.js\");\n/* harmony import */ var _components_home_home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/home/home */ \"./src/components/home/home.js\");\n/* harmony import */ var _components_contact_contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/contact/contact */ \"./src/components/contact/contact.js\");\n\r\n\r\n\r\n\r\nfunction changePage(evt) {\r\n    // https://stackoverflow.com/questions/52447250/calling-an-exported-function-by-a-string-value-of-the-function-name\r\n    const pages = { menu: _components_menu_menu__WEBPACK_IMPORTED_MODULE_0__[\"default\"], home: _components_home_home__WEBPACK_IMPORTED_MODULE_1__[\"default\"], contact: _components_contact_contact__WEBPACK_IMPORTED_MODULE_2__[\"default\"] };\r\n    const selection = evt.target.id;\r\n    const content = pages[selection]();\r\n    \r\n    const main = document.querySelector('#main');\r\n    main.innerHTML = \"\";\r\n    main.appendChild(content);\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/utils/changePage.js?");
 
 /***/ })
 
