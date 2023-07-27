@@ -11,7 +11,7 @@ import changePage from './utils/changePage';
     content.appendChild(navbar());
     content.appendChild(main());
 
-    let pages = {home, menu, contact};
+    let pages = { home, menu, contact };
 
     let buttons = document.querySelectorAll('#links li');
     buttons.forEach((btn) => {
@@ -19,5 +19,6 @@ import changePage from './utils/changePage';
             changePage(pages[btn.id]());
         })
     })
+
     changePage(pages['home']());
 }())
