@@ -11,7 +11,7 @@ export default function navbar() {
 
     pages.forEach((page) => {
         const btn = document.createElement('li');
-        btn.innerText = page;
+        btn.innerText = page.toUpperCase();
         btn.setAttribute('class', 'navlink');
         btn.setAttribute('id', page);
         links.appendChild(btn);

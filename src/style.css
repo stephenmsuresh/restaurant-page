@@ -1,35 +1,70 @@
 /* https://www.digitalocean.com/community/tutorials/css-minimal-css-reset */
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-  }
-  
-  ol, ul {
-    list-style: none;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+  box-sizing: border-box;
+  font-size: 16px;
+}
 
-  body{
-    background-color: purple;
-    color: white;
-  }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-  #links{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: purple;
+  color: white;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+
+#navbar {
+  padding: 10px;
+}
+
+#links li {
+  background-color: blueviolet;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#links li:hover {
+  cursor: pointer;
+  background-color: rgb(171, 9, 171);
+}
+
+#links li:active {
+  background-color: rgb(78, 5, 78);
+}
