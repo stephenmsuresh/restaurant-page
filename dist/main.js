@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* https://www.digitalocean.com/community/tutorials/css-minimal-css-reset */\r\nhtml {\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  \r\n  *, *:before, *:after {\r\n    box-sizing: inherit;\r\n  }\r\n  \r\n  body, h1, h2, h3, h4, h5, h6, p, ol, ul {\r\n    margin: 0;\r\n    padding: 0;\r\n    font-weight: normal;\r\n  }\r\n  \r\n  ol, ul {\r\n    list-style: none;\r\n  }\r\n  \r\n  img {\r\n    max-width: 100%;\r\n    height: auto;\r\n  }\r\n\r\n  body{\r\n    background-color: gray;\r\n  }\r\n\r\n  #links{\r\n    display: flex;\r\n    justify-content: center;\r\n    gap: 10px;\r\n  }`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* https://www.digitalocean.com/community/tutorials/css-minimal-css-reset */\r\nhtml {\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  \r\n  *, *:before, *:after {\r\n    box-sizing: inherit;\r\n  }\r\n  \r\n  body, h1, h2, h3, h4, h5, h6, p, ol, ul {\r\n    margin: 0;\r\n    padding: 0;\r\n    font-weight: normal;\r\n  }\r\n  \r\n  ol, ul {\r\n    list-style: none;\r\n  }\r\n  \r\n  img {\r\n    max-width: 100%;\r\n    height: auto;\r\n  }\r\n\r\n  body{\r\n    background-color: purple;\r\n    color: white;\r\n  }\r\n\r\n  #links{\r\n    display: flex;\r\n    justify-content: center;\r\n    gap: 10px;\r\n  }`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ home)\n/* harmony export */ });\nfunction home() {\r\n    const content = document.createElement('div');\r\n    content.setAttribute('id', 'homepage');\r\n\r\n    const header = document.createElement('h1');\r\n    header.innerText = \"Welcome to Disco Ice Cream - Where Flavor Meets Funk!\"\r\n    content.appendChild(header);\r\n    \r\n    const blurb = document.createElement('p');\r\n    blurb.innerText = \"Step into a world of vibrant retro vibes and delectable treats at our whimsical ice cream parlor. Indulge your taste buds with our handcrafted, creamy concoctions available in an array of dazzling flavors, each one carefully curated to satisfy your sweetest cravings. Get ready to groove to the infectious tunes of the '70s as you savor the delightful experience of Disco Ice Cream, the ultimate destination for a delicious journey through nostalgia!\";\r\n    content.appendChild(blurb);\r\n    return content;\r\n}\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/components/home/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ home)\n/* harmony export */ });\nfunction home() {\r\n    const content = document.createElement('div');\r\n    content.setAttribute('id', 'home-page');\r\n\r\n    const header = document.createElement('h1');\r\n    header.innerText = \"Welcome to Disco Ice Cream - Where Flavor Meets Funk!\"\r\n    content.appendChild(header);\r\n\r\n    const blurb = document.createElement('p');\r\n    blurb.innerText = \"Step into a world of vibrant retro vibes and delectable treats at our whimsical ice cream parlor. Indulge your taste buds with our handcrafted, creamy concoctions available in an array of dazzling flavors, each one carefully curated to satisfy your sweetest cravings. Get ready to groove to the infectious tunes of the '70s as you savor the delightful experience of Disco Ice Cream, the ultimate destination for a delicious journey through nostalgia!\";\r\n    content.appendChild(blurb);\r\n    return content;\r\n}\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/components/home/home.js?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\nfunction menu(){\r\n    console.log('in menu');\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/components/menu/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _amy_shamblen_310bcopEdXU_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./amy-shamblen-310bcopEdXU-unsplash.jpg */ \"./src/components/menu/amy-shamblen-310bcopEdXU-unsplash.jpg\");\n\r\n\r\nfunction menu() {\r\n    const content = document.createElement('div');\r\n    content.setAttribute('id', 'menu-page');\r\n\r\n    const header = document.createElement('h1');\r\n    header.innerText = \"MENU\"\r\n\r\n    const iceCream = document.createElement('IMG');\r\n    iceCream.src = _amy_shamblen_310bcopEdXU_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n\r\n    const flavors = document.createElement('p');\r\n    flavors.innerText = \"Our Flavors Include Chocolate, Ube, Mango, And More!\"\r\n\r\n    const toppings = document.createElement('p');\r\n    toppings.innerText = \"Add Toppings Like Nuts, Sprinkles, Cookie Crumble, And More!\"\r\n\r\n    const menuText = document.createElement('p');\r\n    menuText.innerText = \"Add Scoops of Any Flavor for Only $1 to Your Cone or Bowl!\"\r\n\r\n    content.appendChild(header);\r\n    content.appendChild(iceCream);\r\n    content.appendChild(flavors);\r\n    content.appendChild(toppings);\r\n    content.appendChild(menuText);\r\n\r\n    // Photo by <a href=\"https://unsplash.com/@amyshamblen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Amy Shamblen</a> on <a href=\"https://unsplash.com/photos/310bcopEdXU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\r\n    return content;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/components/menu/menu.js?");
 
 /***/ }),
 
@@ -177,6 +177,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ changePage)\n/* harmony export */ });\nfunction changePage(component) {\r\n    const main = document.querySelector('#main');\r\n    main.innerHTML = \"\";\r\n    main.appendChild(component);\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/utils/changePage.js?");
+
+/***/ }),
+
+/***/ "./src/components/menu/amy-shamblen-310bcopEdXU-unsplash.jpg":
+/*!*******************************************************************!*\
+  !*** ./src/components/menu/amy-shamblen-310bcopEdXU-unsplash.jpg ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"57cbd7c62dac481155a6.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/components/menu/amy-shamblen-310bcopEdXU-unsplash.jpg?");
 
 /***/ })
 
@@ -231,6 +241,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -245,6 +267,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
