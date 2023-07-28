@@ -15,10 +15,10 @@ import changePage from './utils/changePage';
 
     let buttons = document.querySelectorAll('#links li');
     buttons.forEach((btn) => {
-        btn.addEventListener('click', (e) => {
-            changePage(pages[btn.id]());
+        btn.addEventListener('click', (evt) => {
+            changePage(pages[btn.id](), btn.id);
         })
     })
 
-    changePage(pages['home']());
+    changePage(pages['home'](), 'home');
 }())
