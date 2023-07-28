@@ -35,10 +35,57 @@ img {
   height: auto;
 }
 
-body {
-  background-color: purple;
-  color: white;
+@font-face {
+  font-family: 'SweetieSummer';
+  src: url('./assets/SweetieSummer.ttf');
 }
+
+body {
+  background-image: url('./assets/icecreambackground.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'SweetieSummer', sans-serif;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  margin: 20px;
+  width: 80vw;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  border: solid 2px white;
+  padding: 30px;
+  background-color: rgb(69, 10, 69);
+}
+
+#main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100%;
+}
+
 
 #links {
   display: flex;
@@ -49,6 +96,7 @@ body {
 
 #navbar {
   padding: 10px;
+  background: rgba(128, 0, 128, 0.586);
 }
 
 #links li {
@@ -67,4 +115,9 @@ body {
 
 #links li:active {
   background-color: rgb(78, 5, 78);
+}
+
+#menu-page img {
+  max-width: 300px;
+  max-height: auto;
 }
